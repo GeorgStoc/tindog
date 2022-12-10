@@ -1,0 +1,160 @@
+.body{
+    font-family: 'Montserrat', 'sans-serif';
+    text-align: center;   
+}
+
+/* Headings*/
+.title_h1{
+    font-size: 3.5rem;    
+}
+.big_h2{
+    font-size: 3rem; 
+}
+.small_h3{
+    font-size: 1.5rem;
+}
+.heading{
+    line-height: 1.5;  
+    font-weight: 900;
+}
+/* paragraph */
+.grey{
+    color: #8f8f8f;
+}
+/*container*/
+.container-fluid{
+    padding: 7% 15%;
+}
+/*sections*/
+.white-section{
+    background-color: #fff;
+    text-align: center;    
+}
+.color-section{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+}
+.color-section2{
+    background-color: #cf8172; 
+    color: #fff;
+    text-align: center;
+}
+/* title */
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+.playstore{
+    width: 1rem;
+}
+/* Navbar */
+.navbar{
+    padding: 0  0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', 'sans-serif';
+    font-size: 2.5rem;
+    font-style: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light';
+}
+/* Download buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/*title-img */
+.title-image{
+    width: 20%;
+    transform:rotate(25deg);
+    position: absolute;
+    right: 20rem;    
+}
+
+/* features */
+#features{
+    position: relative;    
+}
+
+.features-icon{
+    color: #cf8172;
+    font-size: 3rem;
+}
+
+.features-icon:hover{
+    color: #ff4c68;
+}
+
+/* testimonials*/
+#testimonials{
+    background-color: #cf8172;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/*presssection*/
+#press{
+    background-color: #cf8172;
+    padding-bottom: 3%;    
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing{
+    padding: 100px;
+    text-align: center; 
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.hidden{
+    color: #fff;
+}
+
+/* Media */
+@media (max-width: 1028px) {
+    .title-image{
+        position:static;
+        width: 60%;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+
+}
+/* CTA */
+
+.flaticon-link{
+    text-decoration: none;
+    color:#8f8f8f;
+}
+.flaticon-link:hover{
+    color: black;
+}
+.footer-icons{
+    margin: 20px 10px;
+    color: black;
+}
+.Copyright{
+    margin-top: 1rem;
+}
